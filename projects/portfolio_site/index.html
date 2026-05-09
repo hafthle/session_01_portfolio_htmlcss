@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <!-- CSS file sẽ được tạo riêng -->
-    <link rel="stylesheet" href="projects\portfolio_site\css\variables.css">
+    <!-- CSS files -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
 </head>
 <body>
     <!-- Header: Logo + Nav links -->
-     <header>
+    <header>
         <div class="logo">Le Thu Hoa</div>
-        <nav>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">☰</label>
+        <nav class="nav-links">
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#portfolio">Portfolio</a>
@@ -19,6 +24,13 @@
         </nav>
     </header>
     <!-- Hero: Title + Subtitle + CTA Button -->
+     <section class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Le Thu Hoa</h1>
+            <p>Full-Stack Developer | UI Designer | Problem Solver</p>
+            <a href="#portfolio" class="cta-button">View My Work</a>
+        </div>
+    </section>
 
 </body>
 </html>
